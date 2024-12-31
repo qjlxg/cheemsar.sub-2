@@ -34,9 +34,11 @@ proxy-groups:
   - TW
   - SG
   - JP
-  - US
-  - p_All_Other
+  - Other
   - p_All_CN
+  - p_All_US
+  - p_All_All_US_US
+  - p_All_All_US_US
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -114,12 +116,14 @@ proxy-groups:
   type: url-test
   tolerance: 300
   use: &id007
-  - US
+  - p_All_US
+  - p_All_All_US_US
+  - p_All_All_US_US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
   use: &id008
-  - p_All_Other
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -181,20 +185,11 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  US:
+  Other:
     type: http
-    url: https://raw.kgithub.com/qjlxg/zy2309/main/trials_providers/US.yaml
+    url: https://raw.kgithub.com/qjlxg/zy2309/main/trials_providers/Other.yaml
     interval: 180
-    path: trials_providers/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/zy2309/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
+    path: trials_providers/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -204,6 +199,24 @@ proxy-providers:
     url: https://raw.kgithub.com/qjlxg/zy2309/main/trials_providers/p_All_CN.yaml
     interval: 180
     path: trials_providers/p_All_CN.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_US:
+    type: http
+    url: https://raw.kgithub.com/qjlxg/zy2309/main/trials_providers/p_All_US.yaml
+    interval: 180
+    path: trials_providers/p_All_US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_All_US_US:
+    type: http
+    url: https://raw.kgithub.com/qjlxg/zy2309/main/trials_providers/p_All_All_US_US.yaml
+    interval: 180
+    path: trials_providers/p_All_All_US_US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204

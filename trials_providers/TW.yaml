@@ -1,11 +1,15 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师国际机场, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 93e98908-7cd7-451a-9223-9392e175219c, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师国际机场, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 93e98908-7cd7-451a-9223-9392e175219c, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾 1 - 血液加速器, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: e8104ae8-8a99-44ad-8736-771dbc5c3a67, udp: true}
-- {name: 🇹🇼 台湾01 - 血液加速器, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: e8104ae8-8a99-44ad-8736-771dbc5c3a67, udp: true}
-- {name: '🇹🇼 [vmess]台湾02-3倍率-流媒体 - HY-2', server: cf.hy2.one, port: 80, tfo: true, type: vmess, uuid: a22f6749-a68a-466c-908f-813926fc60eb, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: tw02.hy2.one}}, udp: true}
+- {name: 🇹🇼 🇨🇳 台湾BGP 中转 01 1.5x - 廉价机场, server: f65bf4c781131c461bfb668dadd3d5ec.node.tro.node-is.green, port: 44869, type: trojan, password: 7cbf7dda-2c41-4e02-b894-183da980bd6d, sni: www.ahu.edu.cn, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 🇨🇳 台湾BGP 中转 02 1.5x - 廉价机场, server: b13f602b4e13a45aae5f593c11e5e689.node.tro.node-is.green, port: 48360, type: trojan, password: 7cbf7dda-2c41-4e02-b894-183da980bd6d, sni: www.ahu.edu.cn, skip-cert-verify: true, udp: true}
+- {name: '🇹🇼 [3x]IEPL专线 台湾1 - KUGOU云', server: vip1.kugovip.xyz, port: 50102, type: vmess, uuid: 820ec7c1-6555-4a09-8718-c546c4305909, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇹🇼 [3x]IEPL专线 台湾2 - KUGOU云', server: vip1.kugovip.xyz, port: 50102, type: vmess, uuid: 820ec7c1-6555-4a09-8718-c546c4305909, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 TW.台湾.A - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: xdtw.cokecloud.top, port: 13255, type: vmess, uuid: bb5553cc-cc58-45c1-945a-440449a5782a, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 TW.台湾.B | 推荐 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: xdtw.cokecloud.top, port: 29299, type: vmess, uuid: bb5553cc-cc58-45c1-945a-440449a5782a, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 TW.台湾.C | 高速2x倍率 - 𝘾𝙤𝙠𝙚𝘾𝙡𝙤𝙪𝙙, server: xdtw.cokecloud.top, port: 53497, type: vmess, uuid: bb5553cc-cc58-45c1-945a-440449a5782a, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾01 - uu加速首页, server: jsyd.yeahfast.com, port: 31632, type: ss, cipher: chacha20-ietf-poly1305, password: 61140823-462c-4f3c-adf5-0934905f215d, udp: true}
+- {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: c79ba473-d2d6-30ed-980d-f344b76e2850, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
 - {name: 🇹🇼 vip1 台湾-01 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 25074, type: trojan, password: bfc75171-c6e0-40f1-95d7-f05aed7c84b2, sni: tw01.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 vip1 台湾-02 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 25074, type: trojan, password: bfc75171-c6e0-40f1-95d7-f05aed7c84b2, sni: tw01.ckcloud.info, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 vip1 台湾-01 测试 - FastFly, server: fly0001.flyflylflyflysbs.sbs, port: 29935, type: vmess, uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2, alterId: 00, cipher: auto, tls: true, skip-cert-verify: true, servername: tw01.ckcloud.info, network: grpc, grpc-opts: {grpc-service-name: flynwn}, udp: true}
