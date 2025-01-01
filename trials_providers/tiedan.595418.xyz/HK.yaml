@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 HK香港① - 铁蛋加速, server: cccc2024-zm1.tiedan168.xyz, port: 32121, type: ss, cipher: chacha20-ietf-poly1305, password: 6628dda5-05c4-4dec-9c7a-d20110501720, udp: true}
-- {name: 🇭🇰 HK香港② - 铁蛋加速, server: cccc2024-zm2.tiedan168.xyz, port: 32122, type: ss, cipher: chacha20-ietf-poly1305, password: 6628dda5-05c4-4dec-9c7a-d20110501720, udp: true}
+- {name: 🇭🇰 HK香港① - 铁蛋加速, server: cccc2024-zm1.tiedan168.xyz, port: 32121, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1a0a4d-713c-4bd3-8628-d888b5a12469, udp: true}
+- {name: 🇭🇰 HK香港② - 铁蛋加速, server: cccc2024-zm2.tiedan168.xyz, port: 32122, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1a0a4d-713c-4bd3-8628-d888b5a12469, udp: true}

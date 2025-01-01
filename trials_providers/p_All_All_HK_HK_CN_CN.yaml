@@ -1,5 +1,8 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇭🇰 香港01 - 血液加速器, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 62a29358-d72b-44f2-88c0-2010d394f013, udp: true}
+- {name: 🇭🇰 香港02 - 血液加速器, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 62a29358-d72b-44f2-88c0-2010d394f013, udp: true}
+- {name: 🇭🇰 香港03 - 血液加速器, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 62a29358-d72b-44f2-88c0-2010d394f013, udp: true}
 - {name: 🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管 - pg娱乐电子游戏平台官方版-IOS/最新版/官方版/手机版/手机app下载, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: d9e04e96-bffa-4d82-9fcf-4e9096c48fb2, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}
 - {name: 🇭🇰 香港HGC-1000M可奈飞 迪士尼 油管 - pg娱乐电子游戏平台官方版-IOS/最新版/官方版/手机版/手机app下载 2, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: d9e04e96-bffa-4d82-9fcf-4e9096c48fb2, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}, udp: true}

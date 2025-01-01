@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师国际机场, server: haa.dashuai.cyou, port: 45078, tfo: true, type: vmess, uuid: 9d3bc1ea-df8d-430b-9ec6-c9e41e0bab77, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师国际机场, server: xdd.dashuai.cyou, port: 45077, tfo: true, type: vmess, uuid: 9d3bc1ea-df8d-430b-9ec6-c9e41e0bab77, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师国际机场, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: dd5a9d6a-1139-415b-9aa4-dbc64f442c7c, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师国际机场, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: dd5a9d6a-1139-415b-9aa4-dbc64f442c7c, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
