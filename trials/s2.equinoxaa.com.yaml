@@ -10,13 +10,11 @@ proxy-groups:
   type: select
   proxies:
   - ⚡ ‍低延迟
-  - 🇭🇰 ‍香港
   - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻 ‍指定
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
@@ -24,27 +22,22 @@ proxy-groups:
   - DIRECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - SG
-  - JP
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_Other
-  - p_All_US
+  proxies: &id001
+  - 🇸🇬 新加坡-01 - 畅游无限
+  - 🇸🇬 新加坡-02 - 畅游无限
+  - 🇸🇬 新加坡-03 - 畅游无限
+  - 🇸🇬 新加坡-04 - 畅游无限
+  - 🇸🇬 新加坡-05 - 畅游无限
+  - 🇸🇬 新加坡-06 - 畅游无限
+  - 🇯🇵 日本-01 - 畅游无限
+  - 🇯🇵 日本-02 - 畅游无限
+  - 🇺🇸 美国-01 - 畅游无限
+  - 🇺🇸 美国-02 - 畅游无限
+  - 🇰🇷 韩国-01 - 畅游无限
+  - 🇰🇷 韩国-02 - 畅游无限
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -61,9 +54,7 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
@@ -85,127 +76,70 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  tolerance: 100
-  use: &id002
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
 - name: 🇸🇬 ‍新加坡
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id003
-  - SG
+  proxies: &id002
+  - 🇸🇬 新加坡-01 - 畅游无限
+  - 🇸🇬 新加坡-02 - 畅游无限
+  - 🇸🇬 新加坡-03 - 畅游无限
+  - 🇸🇬 新加坡-04 - 畅游无限
+  - 🇸🇬 新加坡-05 - 畅游无限
+  - 🇸🇬 新加坡-06 - 畅游无限
 - name: 🇯🇵 ‍日本
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id004
-  - JP
+  proxies: &id003
+  - 🇯🇵 日本-01 - 畅游无限
+  - 🇯🇵 日本-02 - 畅游无限
 - name: 🇺🇸 ‍美国
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 300
-  use: &id005
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_US
+  proxies: &id004
+  - 🇺🇸 美国-01 - 畅游无限
+  - 🇺🇸 美国-02 - 畅游无限
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id006
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_Other
+  proxies: &id005
+  - 🇰🇷 韩国-01 - 畅游无限
+  - 🇰🇷 韩国-02 - 畅游无限
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  use: *id002
+  proxies: *id001
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  use: *id003
+  proxies: *id002
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  use: *id004
+  proxies: *id003
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id005
+  proxies: *id004
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id006
-proxy-providers:
-  SG:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar.sub-2/main/trials_providers/SG.yaml
-    interval: 180
-    path: trials_providers/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar.sub-2/main/trials_providers/JP.yaml
-    interval: 180
-    path: trials_providers/JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_All_All_Other_Other_Other_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar.sub-2/main/trials_providers/p_All_All_All_All_All_Other_Other_Other_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_All_All_Other_Other_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar.sub-2/main/trials_providers/p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_All_All_All_US_US_US_US_US:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar.sub-2/main/trials_providers/p_All_All_All_All_All_US_US_US_US_US.yaml
-    interval: 180
-    path: trials_providers/p_All_All_All_All_All_US_US_US_US_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar.sub-2/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/qjlxg/cheemsar.sub-2/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id005
+proxies:
+- {name: 🇸🇬 新加坡-01 - 畅游无限, server: 54.169.156.193, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇸🇬 新加坡-02 - 畅游无限, server: 13.229.232.240, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇸🇬 新加坡-03 - 畅游无限, server: 13.212.74.39, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇸🇬 新加坡-04 - 畅游无限, server: 54.254.38.217, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇸🇬 新加坡-05 - 畅游无限, server: 18.143.162.184, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇸🇬 新加坡-06 - 畅游无限, server: 47.129.63.176, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇰🇷 韩国-01 - 畅游无限, server: 43.203.121.134, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇰🇷 韩国-02 - 畅游无限, server: 43.203.118.82, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇯🇵 日本-01 - 畅游无限, server: 35.77.99.191, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇯🇵 日本-02 - 畅游无限, server: 54.250.33.85, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇺🇸 美国-01 - 畅游无限, server: 54.210.30.219, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+- {name: 🇺🇸 美国-02 - 畅游无限, server: 52.207.226.181, port: 8443, type: vmess, uuid: 4e364813-9f7d-41d7-94dd-3652a20b9d61, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
