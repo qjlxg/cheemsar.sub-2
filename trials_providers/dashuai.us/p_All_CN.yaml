@@ -1,4 +1,0 @@
-%YAML 1.1
----
-proxies:
-- {name: 🇲🇴 澳门NO.2 - 大师国际机场, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: d1e13717-e6d2-4883-a785-0bf078fe5338, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
