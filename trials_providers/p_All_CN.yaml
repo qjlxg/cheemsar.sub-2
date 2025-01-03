@@ -1,0 +1,5 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇨🇳 以后官网被墙就改cn1  cn2  cn3 - NewBee国际机场, server: hn3x.newbee8.me, port: 22250, type: vmess, uuid: bcb266ae-2d9d-44eb-8f01-4b45d04a191e, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇲🇴 澳门NO.2 - 大师国际机场, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 11a54d53-056a-410c-acbe-82aa4313ef64, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
