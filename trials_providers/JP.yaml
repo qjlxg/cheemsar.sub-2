@@ -1,5 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 JP000|低保慢速节点|升级详见官网套餐|永久官网地址 nova.live 需要翻墙 - NovaLive, server: 35.78.173.41, port: 443, type: trojan, password: ee171000-1333-3653-826d-b5fc7fa9cd3d, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 JP001|低保慢速节点|升级详见官网套餐|永久官网地址 nova.live 需要翻墙 - NovaLive, server: 43.206.140.0, port: 443, type: trojan, password: ee171000-1333-3653-826d-b5fc7fa9cd3d, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇯🇵 日本BGP 中转 01 1.5x - 廉价机场, server: 90def2fe6dcb4ad29d128f2f5ae8298a.node.tro.node-is.green, port: 43899, type: trojan, password: 904ebec8-64a3-4d92-8c08-3d4381d643f9, sni: passport.ucloud.cn, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇯🇵 日本BGP 中转 02 1.5x - 廉价机场, server: 290ca466919fb6393a0fbdc80eb69e00.node.tro.node-is.green, port: 49056, type: trojan, password: 904ebec8-64a3-4d92-8c08-3d4381d643f9, sni: passport.ucloud.cn, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- *id001
+- *id002
