@@ -1,0 +1,9 @@
+[dd.moonriver.cfd]
+buy  period=month_price&plan_id=6
+email  euwdndvyu321@gmail.com
+name  MoonRiver月河村
+sub_info  0B  1G  2025-02-03 13:32:34+08:00  (剩余 1G 30 days, 23:52:59.355400)
+sub_url  https://dd01.moonriver.cfd/api/v1/client/subscribe?token=dad202563d29df36be970453d4d4cd19
+time  2025-01-03 13:32:34.927066+08:00
+type  v2board
+保存base64/clash订阅失败  string indices must be integers
