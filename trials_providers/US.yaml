@@ -1,4 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国-芝加哥-001 - 漏网之鱼, server: 166.88.182.81, port: 40552, tfo: true, type: vmess, uuid: 99d58a71-9b82-40f9-a560-f5730eb7159b, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id001 {name: 🇺🇸 美国-芝加哥-001 - 漏网之鱼, server: 166.88.182.81, port: 40552, type: vmess, uuid: 19d33b5d-944d-48bb-b892-dcbd0f8b4ae1, alterId: 00, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- *id001
+- *id001
+- *id001
